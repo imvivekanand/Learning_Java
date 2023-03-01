@@ -65,5 +65,26 @@ public class operator {
         System.out.println(r6);
 
 
+        //Assignment Operator
+        int income = 15000000;
+        int bonus = 250000;
+
+//        income = income + bonus;
+        income += bonus;
+        System.out.println(income);
+
+        int number = 10;
+        int a = 2;
+//        number = number * x;
+//        number *= a;
+//        number /= a;
+        number %=a;
+        System.out.println(number);
+
+        int year = 10;
+        int newYear = year++;
+        System.out.println(newYear);
+
+
     }
 }
