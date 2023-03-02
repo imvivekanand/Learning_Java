@@ -83,7 +83,24 @@ public class operator {
 
         int year = 10;
         int newYear = year++;
-        System.out.println(newYear);
+        System.out.println(year);
+        int nextYear = ++year;
+        System.out.println(newYear); //10
+        System.out.println(nextYear); //12
+
+
+        //Logical Operator
+
+        boolean newOne = !false;
+        System.out.println(newOne);
+        System.out.println(true && false);
+        System.out.println(false || true);
+
+        boolean xi = 5>6;
+        boolean yi = 6<8;
+        System.out.println(xi || yi);
+
+
 
 
     }
