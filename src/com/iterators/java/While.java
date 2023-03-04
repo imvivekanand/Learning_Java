@@ -7,5 +7,15 @@ public class While {
             System.out.println(num);
             num++;
         }
+
+        int number = 5;
+        long factorial = 1;
+
+        while(number>0){
+//            factorial = factorial * number;
+            factorial *= number;
+            number--;
+        }
+        System.out.println(factorial);
     }
 }
