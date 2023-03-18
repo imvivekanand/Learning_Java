@@ -49,5 +49,31 @@ public class Main {
 //        System.out.println(myFavouriteCake.flavour);
 //        System.out.println(myFavouriteCake.price);
 //        System.out.println(myFavouriteCake.isAvailable);
+
+
+        //Getter And Setter Lecture:
+        Rectangle r1 = new Rectangle();
+
+        r1.setLength(12.9f);
+        r1.setBreadth(12.9f);
+
+        System.out.println(r1.getLength());
+        System.out.println(r1.getBreadth());
+
+        Dog d1 = new Dog();
+
+        d1.setName("Barky");
+        d1.setBreed("Labrador");
+        d1.setSize(45);
+        d1.setColor("Brown");
+
+        System.out.println(d1.getName());
+        System.out.println(d1.getBreed());
+        System.out.println(d1.getColor());
+        System.out.println(d1.getSize());
+
+
+
+
     }
 }
